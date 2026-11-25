@@ -9,6 +9,8 @@ Plateforme complète pour vendre des **hijabs, abayas, khimars, robes et ensembl
 | `firestore.rules`, `storage.rules` | Règles de sécurité Firebase |
 | `firebase.json`, `.firebaserc` | Hébergement des 2 sites sur Firebase Hosting |
 
+**Démo en ligne :** https://belleaapp.github.io/belleav/ (boutique + admin, mode démo)
+
 Aucune étape de compilation : HTML, CSS et JavaScript purs (modules ES). Le SDK Firebase est chargé depuis le CDN de Google.
 
 ---
