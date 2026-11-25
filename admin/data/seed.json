@@ -1,0 +1,1574 @@
+{
+ "categories": [
+  {
+   "id": "hijabs",
+   "name": "Hijabs",
+   "group": "femme",
+   "order": 1,
+   "description": "Mousseline, jersey, crêpe, soie de Médine",
+   "active": true
+  },
+  {
+   "id": "khimars",
+   "name": "Khimars & Jilbabs",
+   "group": "femme",
+   "order": 2,
+   "description": "Couvrance et élégance au quotidien",
+   "active": true
+  },
+  {
+   "id": "abayas",
+   "name": "Abayas",
+   "group": "femme",
+   "order": 3,
+   "description": "Abayas de Dubaï, kimono, brodées",
+   "active": true
+  },
+  {
+   "id": "robes",
+   "name": "Robes",
+   "group": "femme",
+   "order": 4,
+   "description": "Robes longues et modestes",
+   "active": true
+  },
+  {
+   "id": "ensembles",
+   "name": "Ensembles",
+   "group": "femme",
+   "order": 5,
+   "description": "Tuniques, pantalons, tenues de prière",
+   "active": true
+  },
+  {
+   "id": "accessoires",
+   "name": "Accessoires",
+   "group": "femme",
+   "order": 6,
+   "description": "Épingles, broches, sacs",
+   "active": true
+  },
+  {
+   "id": "enfants-tenues",
+   "name": "Fillettes — Tenues",
+   "group": "enfant",
+   "order": 7,
+   "description": "Robes et ensembles de 2 à 12 ans",
+   "active": true
+  },
+  {
+   "id": "enfants-priere",
+   "name": "Fillettes — Hijabs & Prière",
+   "group": "enfant",
+   "order": 8,
+   "description": "Premiers hijabs et isdals",
+   "active": true
+  }
+ ],
+ "products": [
+  {
+   "id": "p001",
+   "name": "Hijab Mousseline de Soie",
+   "slug": "hijab-mousseline-de-soie",
+   "sku": "BV-HIJ-001",
+   "category": "hijabs",
+   "price": 1800,
+   "oldPrice": null,
+   "description": "Mousseline légère et fluide, tombé aérien. Dimensions 180 × 70 cm.",
+   "material": "Mousseline de soie synthétique",
+   "care": "Lavage à la main, repassage doux",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 0
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": false,
+   "active": true,
+   "sold": 41,
+   "createdAt": 1792796034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p002",
+   "name": "Hijab Jersey Premium",
+   "slug": "hijab-jersey-premium",
+   "sku": "BV-HIJ-002",
+   "category": "hijabs",
+   "price": 1500,
+   "oldPrice": null,
+   "description": "Jersey extensible qui ne glisse pas, idéal au quotidien. 170 × 60 cm.",
+   "material": "Viscose et élasthanne",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Taupe",
+     "hex": "#9f8e7f"
+    },
+    {
+     "name": "Bleu nuit",
+     "hex": "#2c3550"
+    },
+    {
+     "name": "Ivoire",
+     "hex": "#efe7d6"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 11
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 23,
+   "createdAt": 1792536834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p003",
+   "name": "Hijab Crêpe Médine",
+   "slug": "hijab-crepe-medine",
+   "sku": "BV-HIJ-003",
+   "category": "hijabs",
+   "price": 1600,
+   "oldPrice": 2000,
+   "description": "Le best-seller : crêpe opaque, mat et facile à draper. 180 × 75 cm.",
+   "material": "Crêpe de Médine",
+   "care": "Lavage 30°C, ne pas sécher en machine",
+   "colors": [
+    {
+     "name": "Vert sauge",
+     "hex": "#9caf88"
+    },
+    {
+     "name": "Lilas",
+     "hex": "#b9a3c9"
+    },
+    {
+     "name": "Nude",
+     "hex": "#d8b9a0"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 2
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 140,
+   "createdAt": 1791068034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p004",
+   "name": "Hijab Satin Soie de Médine",
+   "slug": "hijab-satin-soie-de-medine",
+   "sku": "BV-HIJ-004",
+   "category": "hijabs",
+   "price": 2200,
+   "oldPrice": null,
+   "description": "Satin lumineux pour les grandes occasions. 185 × 70 cm.",
+   "material": "Satin soie de Médine",
+   "care": "Lavage à la main",
+   "colors": [
+    {
+     "name": "Champagne",
+     "hex": "#e4d0ac"
+    },
+    {
+     "name": "Bordeaux",
+     "hex": "#6e2a35"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 36,
+   "createdAt": 1795474434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p005",
+   "name": "Bonnets Tube Sous-Hijab (lot de 3)",
+   "slug": "bonnets-tube-sous-hijab-lot-de-3",
+   "sku": "BV-HIJ-005",
+   "category": "hijabs",
+   "price": 900,
+   "oldPrice": null,
+   "description": "Bonnets en coton extensible, maintiennent les cheveux sans serrer.",
+   "material": "Coton et élasthanne",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    },
+    {
+     "name": "Blanc",
+     "hex": "#f7f5f0"
+    },
+    {
+     "name": "Nude",
+     "hex": "#d8b9a0"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 10
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 31,
+   "createdAt": 1794437634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p006",
+   "name": "Khimar Long Nidha",
+   "slug": "khimar-long-nidha",
+   "sku": "BV-KHI-006",
+   "category": "khimars",
+   "price": 3500,
+   "oldPrice": null,
+   "description": "Khimar long jusqu’aux genoux, tissu nidha respirant et opaque.",
+   "material": "Nidha",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    },
+    {
+     "name": "Kaki",
+     "hex": "#7d7a5c"
+    },
+    {
+     "name": "Moka",
+     "hex": "#6b4f3f"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S/M",
+     "stock": 7
+    },
+    {
+     "label": "L/XL",
+     "stock": 12
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 5,
+   "createdAt": 1791240834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p007",
+   "name": "Jilbab 2 Pièces Saoudien",
+   "slug": "jilbab-2-pieces-saoudien",
+   "sku": "BV-KHI-007",
+   "category": "khimars",
+   "price": 6500,
+   "oldPrice": 7800,
+   "description": "Ensemble jilbab + jupe, coupe ample saoudienne. Couvrance totale.",
+   "material": "Nidha premium",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    },
+    {
+     "name": "Bleu marine",
+     "hex": "#23304a"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S/M",
+     "stock": 10
+    },
+    {
+     "label": "L/XL",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": false,
+   "active": true,
+   "sold": 41,
+   "createdAt": 1788562434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p008",
+   "name": "Khimar à Enfiler Double Voile",
+   "slug": "khimar-a-enfiler-double-voile",
+   "sku": "BV-KHI-008",
+   "category": "khimars",
+   "price": 3900,
+   "oldPrice": null,
+   "description": "Double voile à enfiler, pratique et rapide. Longueur mi-cuisse.",
+   "material": "Mousseline double",
+   "care": "Lavage à la main",
+   "colors": [
+    {
+     "name": "Taupe",
+     "hex": "#9f8e7f"
+    },
+    {
+     "name": "Prune",
+     "hex": "#5d3a4c"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 5
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 37,
+   "createdAt": 1795388034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p009",
+   "name": "Abaya Dubaï Brodée Or",
+   "slug": "abaya-dubai-brodee-or",
+   "sku": "BV-ABA-009",
+   "category": "abayas",
+   "price": 9800,
+   "oldPrice": null,
+   "description": "Abaya noire aux broderies dorées sur les manches et le col. Une pièce d’exception.",
+   "material": "Crêpe de Dubaï",
+   "care": "Nettoyage délicat",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "52",
+     "stock": 5
+    },
+    {
+     "label": "54",
+     "stock": 5
+    },
+    {
+     "label": "56",
+     "stock": 8
+    },
+    {
+     "label": "58",
+     "stock": 13
+    },
+    {
+     "label": "60",
+     "stock": 0
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": false,
+   "active": true,
+   "sold": 85,
+   "createdAt": 1792968834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p010",
+   "name": "Abaya Kimono Lin",
+   "slug": "abaya-kimono-lin",
+   "sku": "BV-ABA-010",
+   "category": "abayas",
+   "price": 7500,
+   "oldPrice": 8900,
+   "description": "Coupe kimono ouverte en lin naturel, ceinture assortie fournie.",
+   "material": "Lin et viscose",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    },
+    {
+     "name": "Olive",
+     "hex": "#6d6b4b"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "52",
+     "stock": 8
+    },
+    {
+     "label": "54",
+     "stock": 3
+    },
+    {
+     "label": "56",
+     "stock": 1
+    },
+    {
+     "label": "58",
+     "stock": 5
+    },
+    {
+     "label": "60",
+     "stock": 13
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 23,
+   "createdAt": 1793660034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p011",
+   "name": "Abaya Papillon Crêpe",
+   "slug": "abaya-papillon-crepe",
+   "sku": "BV-ABA-011",
+   "category": "abayas",
+   "price": 6900,
+   "oldPrice": null,
+   "description": "Manches papillon et mouvement fluide, élégante et confortable.",
+   "material": "Crêpe",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Gris perle",
+     "hex": "#bdb9b4"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "52",
+     "stock": 4
+    },
+    {
+     "label": "54",
+     "stock": 6
+    },
+    {
+     "label": "56",
+     "stock": 8
+    },
+    {
+     "label": "58",
+     "stock": 4
+    },
+    {
+     "label": "60",
+     "stock": 7
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 60,
+   "createdAt": 1788821634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p012",
+   "name": "Abaya Ceinturée Satinée",
+   "slug": "abaya-ceinturee-satinee",
+   "sku": "BV-ABA-012",
+   "category": "abayas",
+   "price": 8500,
+   "oldPrice": null,
+   "description": "Satin mat ceinturé à la taille pour une silhouette affinée.",
+   "material": "Satin mat",
+   "care": "Lavage à la main",
+   "colors": [
+    {
+     "name": "Émeraude",
+     "hex": "#1f5c4a"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "52",
+     "stock": 9
+    },
+    {
+     "label": "54",
+     "stock": 8
+    },
+    {
+     "label": "56",
+     "stock": 14
+    },
+    {
+     "label": "58",
+     "stock": 10
+    },
+    {
+     "label": "60",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 15,
+   "createdAt": 1792536834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p013",
+   "name": "Abaya Ouverte Perlée",
+   "slug": "abaya-ouverte-perlee",
+   "sku": "BV-ABA-013",
+   "category": "abayas",
+   "price": 11500,
+   "oldPrice": null,
+   "description": "Abaya ouverte brodée de perles nacrées, idéale pour les fêtes et mariages.",
+   "material": "Mousseline et crêpe",
+   "care": "Nettoyage à sec",
+   "colors": [
+    {
+     "name": "Ivoire",
+     "hex": "#efe7d6"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "52",
+     "stock": 12
+    },
+    {
+     "label": "54",
+     "stock": 2
+    },
+    {
+     "label": "56",
+     "stock": 2
+    },
+    {
+     "label": "58",
+     "stock": 3
+    },
+    {
+     "label": "60",
+     "stock": 0
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": true,
+   "active": true,
+   "sold": 44,
+   "createdAt": 1795474434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p014",
+   "name": "Robe Longue Plissée",
+   "slug": "robe-longue-plissee",
+   "sku": "BV-ROB-014",
+   "category": "robes",
+   "price": 5900,
+   "oldPrice": null,
+   "description": "Robe longue plissée, manches longues, taille élastiquée.",
+   "material": "Polyester plissé",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Terracotta",
+     "hex": "#b5654a"
+    },
+    {
+     "name": "Vert sauge",
+     "hex": "#9caf88"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 3
+    },
+    {
+     "label": "M",
+     "stock": 9
+    },
+    {
+     "label": "L",
+     "stock": 13
+    },
+    {
+     "label": "XL",
+     "stock": 13
+    },
+    {
+     "label": "XXL",
+     "stock": 13
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 70,
+   "createdAt": 1789599234538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p015",
+   "name": "Robe Évasée Manches Bouffantes",
+   "slug": "robe-evasee-manches-bouffantes",
+   "sku": "BV-ROB-015",
+   "category": "robes",
+   "price": 6400,
+   "oldPrice": null,
+   "description": "Robe évasée à manches bouffantes et poignets froncés.",
+   "material": "Viscose",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Lilas",
+     "hex": "#b9a3c9"
+    },
+    {
+     "name": "Bleu ciel",
+     "hex": "#a9c2d9"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 1
+    },
+    {
+     "label": "M",
+     "stock": 2
+    },
+    {
+     "label": "L",
+     "stock": 0
+    },
+    {
+     "label": "XL",
+     "stock": 4
+    },
+    {
+     "label": "XXL",
+     "stock": 7
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 30,
+   "createdAt": 1795474434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p016",
+   "name": "Robe Chemise Longue en Coton",
+   "slug": "robe-chemise-longue-en-coton",
+   "sku": "BV-ROB-016",
+   "category": "robes",
+   "price": 4900,
+   "oldPrice": 5900,
+   "description": "Robe chemise boutonnée, coton respirant pour l’été.",
+   "material": "Coton 100 %",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Blanc cassé",
+     "hex": "#f0ebe0"
+    },
+    {
+     "name": "Kaki",
+     "hex": "#7d7a5c"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 4
+    },
+    {
+     "label": "M",
+     "stock": 13
+    },
+    {
+     "label": "L",
+     "stock": 0
+    },
+    {
+     "label": "XL",
+     "stock": 1
+    },
+    {
+     "label": "XXL",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 41,
+   "createdAt": 1794696834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p017",
+   "name": "Robe de Soirée Satin Drapé",
+   "slug": "robe-de-soiree-satin-drape",
+   "sku": "BV-ROB-017",
+   "category": "robes",
+   "price": 12900,
+   "oldPrice": null,
+   "description": "Robe de soirée en satin drapé, ceinture bijou. Modeste et sublime.",
+   "material": "Satin",
+   "care": "Nettoyage à sec",
+   "colors": [
+    {
+     "name": "Bordeaux",
+     "hex": "#6e2a35"
+    },
+    {
+     "name": "Bleu nuit",
+     "hex": "#2c3550"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 3
+    },
+    {
+     "label": "M",
+     "stock": 8
+    },
+    {
+     "label": "L",
+     "stock": 4
+    },
+    {
+     "label": "XL",
+     "stock": 3
+    },
+    {
+     "label": "XXL",
+     "stock": 1
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": false,
+   "active": true,
+   "sold": 34,
+   "createdAt": 1789944834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p018",
+   "name": "Robe Fluide Imprimé Fleuri",
+   "slug": "robe-fluide-imprime-fleuri",
+   "sku": "BV-ROB-018",
+   "category": "robes",
+   "price": 5200,
+   "oldPrice": 6200,
+   "description": "Robe fluide à imprimé floral délicat, parfaite au printemps.",
+   "material": "Viscose",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 7
+    },
+    {
+     "label": "M",
+     "stock": 0
+    },
+    {
+     "label": "L",
+     "stock": 0
+    },
+    {
+     "label": "XL",
+     "stock": 2
+    },
+    {
+     "label": "XXL",
+     "stock": 13
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 1,
+   "createdAt": 1788735234538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p019",
+   "name": "Ensemble Tunique & Pantalon Large",
+   "slug": "ensemble-tunique-pantalon-large",
+   "sku": "BV-ENS-019",
+   "category": "ensembles",
+   "price": 6800,
+   "oldPrice": null,
+   "description": "Tunique longue fendue et pantalon large assorti.",
+   "material": "Crêpe",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 14
+    },
+    {
+     "label": "M",
+     "stock": 11
+    },
+    {
+     "label": "L",
+     "stock": 4
+    },
+    {
+     "label": "XL",
+     "stock": 13
+    },
+    {
+     "label": "XXL",
+     "stock": 4
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 55,
+   "createdAt": 1792018434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p020",
+   "name": "Ensemble Prière 2 Pièces (Isdal)",
+   "slug": "ensemble-priere-2-pieces-isdal",
+   "sku": "BV-ENS-020",
+   "category": "ensembles",
+   "price": 3200,
+   "oldPrice": null,
+   "description": "Isdal de prière avec jupe, enfilage facile, tissu doux.",
+   "material": "Jersey",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Gris perle",
+     "hex": "#bdb9b4"
+    },
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 8
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 120,
+   "createdAt": 1792364034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p021",
+   "name": "Ensemble Kimono & Pantalon Lin",
+   "slug": "ensemble-kimono-pantalon-lin",
+   "sku": "BV-ENS-021",
+   "category": "ensembles",
+   "price": 7900,
+   "oldPrice": null,
+   "description": "Kimono long et pantalon en lin, élégance décontractée.",
+   "material": "Lin",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Olive",
+     "hex": "#6d6b4b"
+    },
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 11
+    },
+    {
+     "label": "M",
+     "stock": 11
+    },
+    {
+     "label": "L",
+     "stock": 3
+    },
+    {
+     "label": "XL",
+     "stock": 14
+    },
+    {
+     "label": "XXL",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 39,
+   "createdAt": 1794869634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p022",
+   "name": "Ensemble Sport Modeste",
+   "slug": "ensemble-sport-modeste",
+   "sku": "BV-ENS-022",
+   "category": "ensembles",
+   "price": 5500,
+   "oldPrice": null,
+   "description": "Tunique sport longue + legging, tissu technique respirant.",
+   "material": "Polyester technique",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    },
+    {
+     "name": "Bleu marine",
+     "hex": "#23304a"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "S",
+     "stock": 10
+    },
+    {
+     "label": "M",
+     "stock": 7
+    },
+    {
+     "label": "L",
+     "stock": 11
+    },
+    {
+     "label": "XL",
+     "stock": 7
+    },
+    {
+     "label": "XXL",
+     "stock": 7
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 7,
+   "createdAt": 1790204034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p023",
+   "name": "Épingles à Hijab Perlées (lot de 12)",
+   "slug": "epingles-a-hijab-perlees-lot-de-12",
+   "sku": "BV-ACC-023",
+   "category": "accessoires",
+   "price": 600,
+   "oldPrice": null,
+   "description": "Épingles à tête perlée, ne marquent pas le tissu.",
+   "material": "Métal et perles",
+   "care": "—",
+   "colors": [
+    {
+     "name": "Ivoire",
+     "hex": "#efe7d6"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 8
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 200,
+   "createdAt": 1791327234538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p024",
+   "name": "Broche Fleur Dorée",
+   "slug": "broche-fleur-doree",
+   "sku": "BV-ACC-024",
+   "category": "accessoires",
+   "price": 850,
+   "oldPrice": null,
+   "description": "Broche fleur plaquée or pour sublimer votre hijab.",
+   "material": "Métal doré",
+   "care": "—",
+   "colors": [
+    {
+     "name": "Doré",
+     "hex": "#c9a24e"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 6
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 33,
+   "createdAt": 1794610434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p025",
+   "name": "Sac Cabas Cuir Végan",
+   "slug": "sac-cabas-cuir-vegan",
+   "sku": "BV-ACC-025",
+   "category": "accessoires",
+   "price": 4200,
+   "oldPrice": null,
+   "description": "Grand cabas en cuir végan, pochette intérieure zippée.",
+   "material": "Cuir végan",
+   "care": "Essuyer avec un chiffon humide",
+   "colors": [
+    {
+     "name": "Camel",
+     "hex": "#b07d4f"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 8
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 9,
+   "createdAt": 1795042434538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p026",
+   "name": "Magnets à Hijab (lot de 6)",
+   "slug": "magnets-a-hijab-lot-de-6",
+   "sku": "BV-ACC-026",
+   "category": "accessoires",
+   "price": 700,
+   "oldPrice": 1000,
+   "description": "Aimants puissants : tenue parfaite sans trouer le tissu.",
+   "material": "Aimant enrobé",
+   "care": "—",
+   "colors": [
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    },
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "Taille unique",
+     "stock": 4
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 29,
+   "createdAt": 1791845634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p027",
+   "name": "Robe Fillette Smockée",
+   "slug": "robe-fillette-smockee",
+   "sku": "BV-ENF-027",
+   "category": "enfants-tenues",
+   "price": 3200,
+   "oldPrice": null,
+   "description": "Robe smockée à manches longues, douce et confortable.",
+   "material": "Coton",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Jaune pâle",
+     "hex": "#f0dc9c"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "2 ans",
+     "stock": 0
+    },
+    {
+     "label": "4 ans",
+     "stock": 12
+    },
+    {
+     "label": "6 ans",
+     "stock": 13
+    },
+    {
+     "label": "8 ans",
+     "stock": 14
+    },
+    {
+     "label": "10 ans",
+     "stock": 0
+    },
+    {
+     "label": "12 ans",
+     "stock": 9
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": true,
+   "isNew": false,
+   "active": true,
+   "sold": 32,
+   "createdAt": 1788648834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p028",
+   "name": "Abaya Fillette Brodée",
+   "slug": "abaya-fillette-brodee",
+   "sku": "BV-ENF-028",
+   "category": "enfants-tenues",
+   "price": 3900,
+   "oldPrice": null,
+   "description": "Mini abaya brodée pour les fêtes, assortie à maman.",
+   "material": "Crêpe",
+   "care": "Lavage 30°C",
+   "colors": [
+    {
+     "name": "Lilas",
+     "hex": "#b9a3c9"
+    },
+    {
+     "name": "Noir",
+     "hex": "#1f1c1d"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "2 ans",
+     "stock": 0
+    },
+    {
+     "label": "4 ans",
+     "stock": 2
+    },
+    {
+     "label": "6 ans",
+     "stock": 0
+    },
+    {
+     "label": "8 ans",
+     "stock": 0
+    },
+    {
+     "label": "10 ans",
+     "stock": 0
+    },
+    {
+     "label": "12 ans",
+     "stock": 14
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": true,
+   "active": true,
+   "sold": 8,
+   "createdAt": 1795560834538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p029",
+   "name": "Ensemble Fillette Tunique & Pantalon",
+   "slug": "ensemble-fillette-tunique-pantalon",
+   "sku": "BV-ENF-029",
+   "category": "enfants-tenues",
+   "price": 3500,
+   "oldPrice": 4200,
+   "description": "Tunique longue et pantalon, idéal pour l’école.",
+   "material": "Coton",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Vert sauge",
+     "hex": "#9caf88"
+    },
+    {
+     "name": "Beige sable",
+     "hex": "#d6c3a5"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "2 ans",
+     "stock": 10
+    },
+    {
+     "label": "4 ans",
+     "stock": 7
+    },
+    {
+     "label": "6 ans",
+     "stock": 6
+    },
+    {
+     "label": "8 ans",
+     "stock": 11
+    },
+    {
+     "label": "10 ans",
+     "stock": 6
+    },
+    {
+     "label": "12 ans",
+     "stock": 0
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 10,
+   "createdAt": 1789253634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p030",
+   "name": "Hijab Fillette à Enfiler",
+   "slug": "hijab-fillette-a-enfiler",
+   "sku": "BV-ENF-030",
+   "category": "enfants-priere",
+   "price": 900,
+   "oldPrice": null,
+   "description": "Premier hijab à enfiler, jersey doux qui ne serre pas.",
+   "material": "Jersey coton",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Blanc",
+     "hex": "#f7f5f0"
+    },
+    {
+     "name": "Lilas",
+     "hex": "#b9a3c9"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "2-6 ans",
+     "stock": 3
+    },
+    {
+     "label": "7-12 ans",
+     "stock": 8
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 90,
+   "createdAt": 1794005634538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p031",
+   "name": "Isdal Prière Fillette",
+   "slug": "isdal-priere-fillette",
+   "sku": "BV-ENF-031",
+   "category": "enfants-priere",
+   "price": 2400,
+   "oldPrice": null,
+   "description": "Isdal de prière une pièce, facile à enfiler.",
+   "material": "Jersey",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Nude",
+     "hex": "#d8b9a0"
+    },
+    {
+     "name": "Bleu ciel",
+     "hex": "#a9c2d9"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "3-6 ans",
+     "stock": 9
+    },
+    {
+     "label": "7-10 ans",
+     "stock": 2
+    },
+    {
+     "label": "11-13 ans",
+     "stock": 10
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 25,
+   "createdAt": 1791500034538,
+   "updatedAt": 1795647234538
+  },
+  {
+   "id": "p032",
+   "name": "Khimar Fillette Coton",
+   "slug": "khimar-fillette-coton",
+   "sku": "BV-ENF-032",
+   "category": "enfants-priere",
+   "price": 1400,
+   "oldPrice": null,
+   "description": "Petit khimar en coton respirant.",
+   "material": "Coton",
+   "care": "Lavage 40°C",
+   "colors": [
+    {
+     "name": "Rose poudré",
+     "hex": "#e6c1bb"
+    },
+    {
+     "name": "Gris perle",
+     "hex": "#bdb9b4"
+    }
+   ],
+   "sizes": [
+    {
+     "label": "2-6 ans",
+     "stock": 2
+    },
+    {
+     "label": "7-12 ans",
+     "stock": 5
+    }
+   ],
+   "tags": [],
+   "images": [],
+   "featured": false,
+   "isNew": false,
+   "active": true,
+   "sold": 0,
+   "createdAt": 1794783234538,
+   "updatedAt": 1795647234538
+  }
+ ],
+ "settings": {
+  "storeName": "BelleaV",
+  "tagline": "L’élégance modeste, pour elle et ses filles",
+  "phone": "0550 00 00 00",
+  "whatsapp": "0550000000",
+  "email": "contact@belleav.dz",
+  "address": "Alger, Algérie",
+  "instagram": "https://instagram.com/belleav",
+  "facebook": "https://facebook.com/belleav",
+  "tiktok": "",
+  "announcement": "Livraison dans les 58 wilayas · Paiement à la livraison · Échange sous 7 jours",
+  "freeShippingThreshold": 15000,
+  "hero": {
+   "title": "La nouvelle collection Hiver",
+   "subtitle": "Abayas, hijabs et robes modestes pensés pour sublimer chaque femme.",
+   "cta": "Découvrir la collection",
+   "image": ""
+  },
+  "delivery": {},
+  "deliveryDelay": "24 à 72 h selon la wilaya",
+  "pages": {
+   "livraison": "Nous livrons dans les 58 wilayas via nos partenaires (Yalidine, ZR Express…).\n\nDélais : 24 h à 72 h selon votre wilaya.\nPaiement : en espèces à la livraison.\nLivraison à domicile ou au bureau (stop desk).\n\nLa livraison est offerte dès le montant indiqué sur le site.",
+   "retours": "Vous disposez de 7 jours après réception pour demander un échange.\n\nL’article doit être neuf, non porté, avec son étiquette.\nLes frais de retour sont à la charge de la cliente sauf en cas d’erreur de notre part.\n\nContactez-nous sur WhatsApp avec votre numéro de commande.",
+   "guide-tailles": "ABAYAS (taille = longueur en pouces)\n52 → 1m50 à 1m55\n54 → 1m55 à 1m60\n56 → 1m60 à 1m65\n58 → 1m65 à 1m70\n60 → 1m70 et plus\n\nROBES & ENSEMBLES\nS → 36/38 · M → 38/40 · L → 40/42 · XL → 42/44 · XXL → 44/46\n\nFILLETTES\nLa taille correspond à l’âge. En cas de doute, prenez la taille au-dessus.",
+   "a-propos": "BelleaV est une marque algérienne dédiée à la mode modeste féminine.\n\nNous sélectionnons des tissus de qualité et des coupes élégantes pour que chaque femme se sente belle et à l’aise, du quotidien aux grandes occasions — et pour ses filles aussi, dans notre petit espace Fillettes.",
+   "faq": "Comment passer commande ?\nAjoutez vos articles au panier puis remplissez le formulaire. Nous vous appelons pour confirmer.\n\nQuand vais-je payer ?\nÀ la livraison, en espèces.\n\nPuis-je échanger un article ?\nOui, sous 7 jours (voir Retours & échanges).\n\nComment suivre ma commande ?\nRendez-vous sur la page « Suivi de commande » avec votre numéro."
+  }
+ },
+ "promos": [
+  {
+   "id": "BIENVENUE10",
+   "code": "BIENVENUE10",
+   "type": "percent",
+   "value": 10,
+   "minTotal": 3000,
+   "active": true,
+   "label": "-10 % sur votre première commande"
+  },
+  {
+   "id": "BELLEAV1000",
+   "code": "BELLEAV1000",
+   "type": "fixed",
+   "value": 1000,
+   "minTotal": 10000,
+   "active": true,
+   "label": "-1 000 DA dès 10 000 DA"
+  }
+ ]
+}

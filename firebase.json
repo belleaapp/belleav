@@ -1,0 +1,29 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "hosting": [
+    {
+      "target": "boutique",
+      "public": "boutique",
+      "ignore": ["firebase.json", "**/.*"],
+      "headers": [
+        { "source": "**/*.@(js|css)", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+        { "source": "sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+        { "source": "icons/**", "headers": [{ "key": "Cache-Control", "value": "public, max-age=604800" }] }
+      ]
+    },
+    {
+      "target": "admin",
+      "public": "admin",
+      "ignore": ["firebase.json", "**/.*"],
+      "headers": [
+        { "source": "**", "headers": [{ "key": "X-Robots-Tag", "value": "noindex, nofollow" }, { "key": "Cache-Control", "value": "no-cache" }] }
+      ]
+    }
+  ]
+}

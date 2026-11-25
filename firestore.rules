@@ -1,0 +1,63 @@
+rules_version = '2';
+// Règles de sécurité BelleaV
+// - La boutique ne LIT rien dans Firestore pour le catalogue (fichier publié dans Storage).
+// - Les clientes peuvent seulement CRÉER une commande / un message (jamais lire la liste).
+// - Le suivi de commande lit UN document par son numéro (non devinable) — jamais la liste.
+// - Tout le reste est réservé aux comptes présents dans la collection "admins".
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function isAdmin() {
+      return request.auth != null
+        && exists(/databases/$(database)/documents/admins/$(request.auth.uid));
+    }
+    function str(v, min, max) { return v is string && v.size() >= min && v.size() <= max; }
+
+    function validOrder(id) {
+      let d = request.resource.data;
+      let c = d.customer;
+      return d.keys().hasOnly(['id', 'status', 'source', 'customer', 'delivery', 'items', 'subtotal', 'discount', 'promoCode', 'total', 'createdAt'])
+        && d.id == id
+        && id.matches('^BV-[A-Z0-9]{8}$')
+        && d.status == 'nouvelle'
+        && d.createdAt == request.time
+        && d.items is list && d.items.size() > 0 && d.items.size() <= 50
+        && d.total is number && d.total >= 0 && d.total < 10000000
+        && d.subtotal is number && d.discount is number
+        && c is map
+        && str(c.firstName, 1, 60) && str(c.lastName, 1, 60)
+        && str(c.phone, 9, 20) && str(c.commune, 1, 80)
+        && c.wilaya is int && c.wilaya >= 1 && c.wilaya <= 69
+        && (!('address' in c) || str(c.address, 0, 300))
+        && (!('notes' in c) || str(c.notes, 0, 500))
+        && d.delivery is map && d.delivery.type in ['home', 'desk'];
+    }
+
+    match /orders/{orderId} {
+      allow create: if validOrder(orderId);
+      allow get: if true;                       // suivi par numéro de commande
+      allow list, update, delete: if isAdmin();
+    }
+
+    match /messages/{msgId} {
+      allow create: if request.resource.data.keys().hasOnly(['name', 'phone', 'subject', 'message', 'read', 'createdAt'])
+        && str(request.resource.data.name, 1, 100)
+        && str(request.resource.data.phone, 9, 20)
+        && str(request.resource.data.message, 5, 2000)
+        && request.resource.data.read == false
+        && request.resource.data.createdAt == request.time;
+      allow read, update, delete: if isAdmin();
+    }
+
+    // Lecture de son propre statut admin (création manuelle dans la console)
+    match /admins/{uid} {
+      allow get: if request.auth != null && request.auth.uid == uid;
+      allow write: if false;
+    }
+
+    // Catalogue source, paramètres, codes promo, méta : admin uniquement
+    match /{col}/{docId} {
+      allow read, write: if isAdmin() && col in ['products', 'categories', 'promos', 'settings', 'meta'];
+    }
+  }
+}

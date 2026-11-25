@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "default": "VOTRE-ID-DE-PROJET"
+  },
+  "targets": {
+    "VOTRE-ID-DE-PROJET": {
+      "hosting": {
+        "boutique": ["VOTRE-ID-DE-PROJET"],
+        "admin": ["VOTRE-ID-DE-PROJET-admin"]
+      }
+    }
+  }
+}
